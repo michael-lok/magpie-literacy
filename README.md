@@ -22,7 +22,7 @@ poetry install
 
 ### 2. Run the application
 To run the application, you'll need to make sure that you are in your terminal. You should be able to
-run the following command:
+run the following command (make sure your filepath is within the poetry project subfolder `magpie`):
 ```bash
 poetry run streamlit run magpie/main.py
 ```

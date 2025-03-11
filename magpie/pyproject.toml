@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "magpie"
+version = "0.1.0"
+description = ""
+authors = ["michael-lok <michael91lok@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+streamlit = "^1.43.2"
+matplotlib = "^3.10.1"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

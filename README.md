@@ -22,9 +22,9 @@ poetry install
 
 ### 2. Run the application
 To run the application, you'll need to make sure that you are in your terminal. You should be able to
-run the following command (make sure your filepath is within the poetry project subfolder `magpie`):
+run the following command (make sure your filepath is within the poetry project subfolder `magpie/magpie`):
 ```bash
-poetry run streamlit run magpie/main.py
+poetry run streamlit run main.py
 ```
 
 In the terminal output, there should be printed the question and answers for question 1 and 2. Question 3 (visualization) will open a new browser tab automatically as a Streamlit app to be interfaced with.

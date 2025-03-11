@@ -8,7 +8,7 @@ This is a simple web application that allows users to visualize the proficiency 
 ### 1. Install Python Poetry
 Python poetry is a modern dependency management and packaging tool for Python, aiming to simplify the process of library development and publication. Below are the steps to install Poetry on your system.
 
-1. Ensure that Python is installed on your system. We require python3.12 for the Stripe Loader project.
+1. Ensure that Python is installed on your system. Python3.12 is required for the project.
 2. poetry provides an installer script that can be executed to install the latest version. Run the following command in your terminal (try python instead of python3 if it errors):
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
@@ -41,5 +41,6 @@ You can exit the application by simply pressing the `Ctrl+C` key combination in 
         - Note: the averages for each skill are seen on the right y-axis; the left y-axis shows the record counts.
     * Side by side chart
         - A side by side chart showing the record counts of each skill level as well as the average proficiency for each skill level.
+    * Sample images of these can be seen in the `magpie/sample{n}.png` files.
 * The application also allows you to upload your own data to view in the skill reports, although this defaults to the one derived from the sample data.
 * Although the question 2 asks for proficiency.json and skill.json consumption, it does not appear that these are used at all in the application.
